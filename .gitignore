@@ -1,0 +1,88 @@
+# OS generated files #
+######################
+Thumbs.db
+.DS_Store
+
+# Visual Studio Code #
+######################
+.vscode/
+
+# Visual Studio generated files #
+##################################
+*.user
+*.userosscache
+*.suo
+*.cache
+*.pdb
+*.dll
+*.exe
+*.manifest
+*.log
+*.vspscc
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.ncb
+*.idb
+*.ipch
+*.aps
+*.lib
+*.exp
+*.res
+*.pch
+*.sbr
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.ncrunch*
+*.log
+*.nupkg
+*.psscc
+*.psess
+*.vsp
+*.vspx
+*.docstates
+
+# Packages #
+############
+# It's not always the best idea to have the NuGet packages directory included
+# in version control. If you want to include the packages in your repository,
+# comment the next line out.
+# packages/
+
+# Build results #
+#################
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Bb]uild/
+[Bb]uilds/
+[Nn]ode_modules/
+[Jj]spm_packages/
+
+# Temporary files #
+###################
+*.[Ss]wp
+*.[Cc]ache
+*.[Pp]db
+*.dbmdl
+*.[Tt]mp
+*.[Cc]om
+*.ilk
+*.mdf
+*.ldf
