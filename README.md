@@ -5,9 +5,7 @@ This project is learning .NET REST APIs.
 ## Table of Contents
 
 1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Contributing](#contributing)
-4. [License](#license)
+2. [About Repositor](#repository)
 
 ## Installation
 
@@ -17,3 +15,6 @@ Provide instructions on how to install the project. Include any dependencies tha
 # Example installation instructions
 dotnet run
 dotnet build
+```
+
+## Repository
