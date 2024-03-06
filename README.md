@@ -6,6 +6,7 @@ This project is learning .NET REST APIs.
 
 1. [Installation](#installation)
 2. [About Repositor](#repository)
+3. [Service Lifetime](#service-lifetime)
 
 ## Installation
 
@@ -18,3 +19,10 @@ dotnet build
 ```
 
 ## Repository
+## Service-Lifetime
+1. Transient
+2. Scope
+3. Singleton
+
+## Dependency-Injection
+<IGamesRepository, InMemGamesRepository>: Ini adalah informasi yang menyatakan bahwa layanan yang didaftarkan (yang akan diinjeksikan ke dalam kelas lain dalam aplikasi) adalah sebuah implementasi dari antarmuka IGamesRepository, dan implementasinya disediakan oleh kelas InMemGamesRepository.

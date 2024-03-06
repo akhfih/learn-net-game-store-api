@@ -1,12 +1,12 @@
 
-
 using GamesStore.Api.Entities;
 
 namespace GamesStore.Api.Repositories;
 
-public class InMemGamesRepository
+public class InMemGamesRepository : IGamesRepository
 {
-    private readonly List<Game> games = new(){
+    private readonly List<Game> games = new()
+    {
         new Game()
         {
             Id = 1,
@@ -63,7 +63,4 @@ public class InMemGamesRepository
         var index = games.FindIndex(game=>game.Id == id);
         games.RemoveAt(index);
     }
-
-
-
 }
