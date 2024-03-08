@@ -26,3 +26,6 @@ dotnet build
 
 ## Dependency-Injection
 <IGamesRepository, InMemGamesRepository>: Ini adalah informasi yang menyatakan bahwa layanan yang didaftarkan (yang akan diinjeksikan ke dalam kelas lain dalam aplikasi) adalah sebuah implementasi dari antarmuka IGamesRepository, dan implementasinya disediakan oleh kelas InMemGamesRepository.
+
+## Data Transfer Object
+DTO int the context of a REST API, a DTO can be considered a contract between the client and server that defines the expectation and requirements. 
