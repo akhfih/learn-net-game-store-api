@@ -29,3 +29,13 @@ dotnet build
 
 ## Data Transfer Object
 DTO int the context of a REST API, a DTO can be considered a contract between the client and server that defines the expectation and requirements. 
+
+## Install Docker
+1. https://docs.docker.com/desktop/install/linux-install/
+2. https://hub.docker.com/_/microsoft-mssql-server
+
+
+```poserShell 
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=P@ssword123" -p 1433:1433 -v sqlvolume:/var/opt/mssql -d --rm --name mssql mcr.microsoft.com/mssql/server:2022-latest
+```
+
