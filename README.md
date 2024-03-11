@@ -55,6 +55,11 @@ dotnet user-secrets set "ConnectionStrings:GameStoreContext" "Server=localhost; 
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 ```
 
-## 
+## db migration
+```powerShell
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet ef migrations add InitialCreate --output-dir Data/Migrations
+```
+
 
 
