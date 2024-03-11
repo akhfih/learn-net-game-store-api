@@ -47,3 +47,14 @@ $sa_password = "[SA PASSWORD HERE]"
 dotnet user-secrets set "ConnectionStrings:GameStoreContext" "Server=localhost; Database=GameStore; User Id=sa; Password=$sa_password;TrustServerCertificate=True"
 ```
 
+## O/RM (object-relational mappin) Entity Framework Core
+- A technique for converting data between a realtional database and an object-oriented program
+- Entity Framework Core is a lightweight, extensible, open source and cross-platform object-raltional mapper for .NET 
+
+```powerShell
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+```
+
+## 
+
+
