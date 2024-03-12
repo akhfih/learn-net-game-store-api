@@ -61,5 +61,10 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet ef migrations add InitialCreate --output-dir Data/Migrations
 ```
 
+## applying a database migration
+```powerShell
+dotnet ef database update
+```
+
 
 
